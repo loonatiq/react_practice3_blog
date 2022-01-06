@@ -1,20 +1,20 @@
 import React, {useState} from 'react';
+import './App.css';
+import Post from './Post';
+import AddBtn from './AddBtn';
 
 function App() {
+  const [title, setTitle] = useState('제목');
+  const [date, setDate] = useState('날짜');
+
   return (
     <>
-    <div>Blog</div>
+    <div className='navbar'>Blog</div>
     <div>
       맛집
     </div>
-    <div>
-      <div>
-        글제목
-      </div>
-      <div>
-        날짜
-      </div>
-    </div>
+    <AddBtn />
+    <Post title={title} date={date}/>
     </>
   );
 }
