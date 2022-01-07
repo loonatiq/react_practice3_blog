@@ -5,8 +5,9 @@ import AddBtn from './AddBtn';
 
 function App() {
   const [title, setTitle] = useState('제목');
-  const [date, setDate] = useState('날짜');
-
+  // const [date, setDate] = useState(today);
+  const current = new Date();
+  const today = `${current.getFullYear()}/${current.getMonth()+1}/${current.getDate()}`;
   return (
     <>
     <div className='navbar'>Blog</div>
@@ -14,7 +15,10 @@ function App() {
       맛집
     </div>
     <AddBtn />
-    <Post title={title} date={date}/>
+    <Post title={title} date={today}/>
+    <Post title={title} date={today}/>
+    <Post title={title} date={today}/>
+    <Post title={title} date={today}/>
     </>
   );
 }
