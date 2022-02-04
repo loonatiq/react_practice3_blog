@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "맛집1",
+    "imgUrl": "undefined",
+    "content": "맛집에 대한 내용",
+    "createdAt": 1,
+    "updatedAt": 11
+  },
+  {
+    "id": 2,
+    "title": "맛집2",
+    "imgUrl": "undefined",
+    "content": "맛집에 대한 내용2",
+    "createdAt": 2,
+    "updatedAt": 22
+  },
+  {
+    "id": 3,
+    "title": "맛집3",
+    "imgUrl": "undefined",
+    "content": "맛집에 대한 내용3",
+    "createdAt": 3,
+    "updatedAt": 33
+  },
+  {
+    "id": 4,
+    "title": "맛집4",
+    "imgUrl": "undefined",
+    "content": "맛집에 대한 내용4",
+    "createdAt": 4,
+    "updatedAt": 44
+  },
+  {
+    "id": 5,
+    "title": "맛집5",
+    "imgUrl": "undefined",
+    "content": "맛집에 대한 내용5",
+    "createdAt": 5,
+    "updatedAt": 55
+  },
+  {
+    "id": 6,
+    "title": "맛집6",
+    "imgUrl": "undefined",
+    "content": "맛집에 대한 내용6",
+    "createdAt": 6,
+    "updatedAt": 34
+  }
+]

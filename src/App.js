@@ -1,24 +1,21 @@
-import React, {useState} from 'react';
-import './App.css';
-import Post from './Post';
-import AddBtn from './AddBtn';
+import React, { useState } from "react";
+import "./App.css";
+import AddBtn from "./AddBtn";
+import PostList from "./components/PostList";
+import items from "./mock.json";
+import PostForm from "./components/PostForm";
 
 function App() {
-  const [title, setTitle] = useState('제목');
-  // const [date, setDate] = useState(today);
-  const current = new Date();
-  const today = `${current.getFullYear()}/${current.getMonth()+1}/${current.getDate()}`;
+  // const current = new Date();
+  // const today = `${current.getFullYear()}/${
+  //   current.getMonth() + 1
+  // }/${current.getDate()}`;
+
   return (
     <>
-    <div className='navbar'>Blog</div>
-    <div>
-      맛집
-    </div>
-    <AddBtn />
-    <Post title={title} date={today}/>
-    <Post title={title} date={today}/>
-    <Post title={title} date={today}/>
-    <Post title={title} date={today}/>
+      <div className="navbar">Blog</div>
+      <AddBtn />
+      <PostList items={items} />
     </>
   );
 }
