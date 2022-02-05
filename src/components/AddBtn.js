@@ -1,5 +1,6 @@
 import { useState } from "react";
-import PostForm from "./components/PostForm";
+import PostForm from "./PostForm";
+import "./AddBtn.css";
 
 function AddBtn() {
   const [toggle, setToggle] = useState(false);
@@ -8,7 +9,9 @@ function AddBtn() {
   };
   return (
     <>
-      <button onClick={toggleMenu}>추가</button>
+      <div className="addBtn">
+        <button onClick={toggleMenu}>+</button>
+      </div>
       <div>{toggle === true ? <PostForm /> : ""}</div>
     </>
   );

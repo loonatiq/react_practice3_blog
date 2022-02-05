@@ -1,0 +1,11 @@
+.addBtn {
+  display: flex;
+  justify-content: right;
+  margin: 5px;
+}
+
+.addBtn button {
+  border: 1px solid;
+  padding: 5px 8px;
+  border-radius: 10px;
+}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import AddBtn from "./AddBtn";
+import AddBtn from "./components/AddBtn";
 import PostList from "./components/PostList";
 import items from "./mock.json";
 import PostForm from "./components/PostForm";

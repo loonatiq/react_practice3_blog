@@ -1,0 +1,33 @@
+:root {
+  --text-background-color: #ebebeb;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  width: 800px;
+  height: 25px;
+  resize: none;
+  border: none;
+  background-color: var(--text-background-color);
+  margin-bottom: 5px;
+}
+
+.content {
+  width: 800px;
+  height: 600px;
+  resize: none;
+  border: none;
+  background-color: var(--text-background-color);
+}
+
+.subButton button {
+  background-color: var(--text-background-color);
+  border: 1px solid #7a7a7a;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+}
